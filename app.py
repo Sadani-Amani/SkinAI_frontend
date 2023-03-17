@@ -35,7 +35,7 @@ classes = [
 
 def get_prediction(image):
     # Define the API endpoint URL
-    url = "http://localhost:8000/SkinAI"
+    url = "https://skin-ai-3ly6to7w7a-ew.a.run.app/SkinAI"
 
     # Prepare the image data
     img_bytes = image
